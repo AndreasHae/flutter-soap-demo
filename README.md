@@ -1,6 +1,6 @@
 # Flutter SOAP client demo
 
-This project serves as an example for how to handle SOAP requests in Flutter. It uses the `http` package to send requests to the SOAP service and the `xml` package to build and parse requests in XML. The app requires the [corresponding service](URL of service) to process requests in a specific schema.
+This project serves as an example for how to handle SOAP requests in Flutter. It uses the `http` package to send requests to the SOAP service and the `xml` package to build and parse requests in XML. The app requires the [corresponding service](https://github.com/AndreasHae/spring-boot-soap-demo) to process requests in a specific schema.
 
 ## Possible improvements
 
