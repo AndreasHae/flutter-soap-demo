@@ -18,7 +18,7 @@ jobs:
       with:
         flutter-version: '1.12.13+hotfix.5'
     - run: flutter pub get
-    - run: flutter test
+#   - run: flutter test # TODO: Write tests
     - run: flutter build apk --debug --split-per-abi
     - name: Push APK to Releases
       uses: ncipollo/release-action@v1
